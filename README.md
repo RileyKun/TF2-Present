@@ -11,7 +11,7 @@ Download Visual Studio 2022 with the desktop development package.
 2. Download the 2010 DirectX SDK
 3. Restart Visual Studio and verify that DirectX headers and libraries exist.
 ## Technical Features
-Hooks `Present()` and `Reset()` virtual functions from the DirectX API. 
+Hooks `Present()` and `Reset()` virtual functions from the DirectX API.  
 Does a signature scan for `IDirect3DDevice9` in `shaderapidx9.dll`.
 Has an easy to use system to draw text.  
 Uses clang-cl/LLVM toolsets.
