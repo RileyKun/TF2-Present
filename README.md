@@ -16,7 +16,7 @@ Does a signature scan for `IDirect3DDevice9` in `shaderapidx9.dll`.
 Has an easy to use system to draw text.  
 Uses clang-cl/LLVM toolsets.
 ## FAQ
-Q. Why?
+Q. Why?  
 A. I grew tired of seeing everyone sludge around with Surface rendering
 and wanted to make things more accessible for new developers and the like.  
 
