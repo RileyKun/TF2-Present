@@ -29,5 +29,5 @@ A. This was more of a proof of concept and a decent reference for people to go b
 Q. Do you plan on updating this base at all or adding anything to it?  
 A. If I add anything, I will make a new repository. This is mainly just a proof of concept.
 ## Credits
-[D3X](https://github.com/angelfor3v3r/) - Assisting with hooks.  
-[Fedoraware](https://github.com/Fedoraware/Fedoraware) - Pattern scanner, interface manager & the signature for ID3DDevice9.  
+- [D3X](https://github.com/angelfor3v3r/) - Assisting with hooks.  
+- [Fedoraware](https://github.com/Fedoraware/Fedoraware) - Pattern scanner, interface manager & the signature for ID3DDevice9.  
