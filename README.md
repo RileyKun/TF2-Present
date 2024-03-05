@@ -1,5 +1,5 @@
 # TF2 Present
-An internal cheat base for Team Fortress 2.  
+An internal cheat base for Team Fortress 2, written in C++  
 ## How to use?
 ### Download
 Run `git clone https://github.com/RileyKun/TF2-Present`  
