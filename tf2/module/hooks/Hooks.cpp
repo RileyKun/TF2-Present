@@ -35,7 +35,7 @@ HRESULT __stdcall Hooks::Hooked_Present( IDirect3DDevice9* device, RECT* source,
 	return Original_Present( device, source, destination, window_override, dirty );
 }
 
-HRESULT __stdcall Hooks::Hooked_Reset( IDirect3DDevice9* device, D3DPRESENT_PARAMETERS* params ) noexcept {
+HRESULT __stdcall Hooks::Hooked_Reset( IDirect3DDevice9* device, D3DPRESENT_PARAMETERS* params ) {
 	g_Draw->OnReset( );
 	const auto result = Original_Reset( device, params );
 	return result;
