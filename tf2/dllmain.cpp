@@ -12,7 +12,7 @@ DWORD WINAPI EntryPoint( LPVOID reserved ) {
 
 	g_Core.Unload( );
 
-	FreeLibraryAndExitThread( reinterpret_cast<HMODULE>(reserved), 0 );
+	FreeLibraryAndExitThread( static_cast<HMODULE>(reserved), 0 );
 }
 
 INT WINAPI DllMain( HMODULE instance, DWORD reason, LPVOID reserved ) {
